@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/profil"
+        android:layout_centerVertical= "true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/profImage"
+            android:layout_centerVertical= "true"
+            android:src="@drawable/ic_user_foreground_foreground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txIme"
+            android:text="Simeon"
+            android:textSize="15dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txPrezime"
+            android:text="Ilic"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ime_prezime"
+        android:layout_centerVertical= "true"
+        android:layout_toRightOf="@+id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_centerVertical= "true"
+            android:id="@+id/txStart"
+            android:text="Polazak: Beograd"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txCilj"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Do: Krusevac"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txDatum"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Datum polaska: 22/3/2121"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txVreme"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Vreme polaska: 09:30"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txAutomobil"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Automobil: Mercedes G"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txEmail"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Kontakt: email@email.com"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txBrSedista"
+            android:layout_centerVertical= "true"
+            android:layout_marginLeft="20dp"
+            android:text="Broj sedista: 5"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

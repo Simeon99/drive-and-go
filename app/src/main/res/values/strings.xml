@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Drive and go</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nadji_voznju_text">Potražite je kod nas, naši korisnici vrše usluge prevoza da odredjenih destinacija.</string>
+    <string name="dodaj_voznju_text">Dodajte oglas za destinaciju ka kojoj putuijete, a naši korisnici će se prijaviti i podeliti troškove sa vama.</string>
+    <string name="onama_text">Ova apliakcija ima za cilj da spoji ljude kojima treba društvo u vožnji sa onima kojima jepotrebna vožnja do odredjene destinacije. Kako bi korisnici što udobnije i bezbednije putovali proveravamo naše vozače i tako smo sigurni da će vaša vožnjabiti komotna i bezbedna. </string>
+    <string name="map_key" translatable="false">
+        AIzaSyCCUi_4-FHFSnfgG3LhDMCEE7WND4d4NqY
+    </string>
+</resources>
